@@ -79,41 +79,41 @@ function test() {
 
 };
 
-function playSound(name) {
+// function playSound(name) {
 
-    switch (name) {
-        case "blue":
+//     switch (name) {
+//         case "blue":
 
-            audio = new Audio("../Simon Game/sounds/blue.mp3");
-            audio.play();
+//             audio = new Audio("../Simon Game/sounds/blue.mp3");
+//             audio.play();
 
-            break;
-
-
-        case "green":
-
-            audio = new Audio("../Simon Game/sounds/green.mp3");
-            audio.play();
-
-            break;
-
-        case "red":
-
-            audio = new Audio("../Simon Game/sounds/red.mp3");
-            audio.play();
-
-            break;
-
-        case "yellow":
-
-            audio = new Audio("../Simon Game/sounds/yellow.mp3");
-            audio.play();
-
-            break;
-
-        default:
-            break;
-    };
+//             break;
 
 
-};
+//         case "green":
+
+//             audio = new Audio("../Simon Game/sounds/green.mp3");
+//             audio.play();
+
+//             break;
+
+//         case "red":
+
+//             audio = new Audio("../Simon Game/sounds/red.mp3");
+//             audio.play();
+
+//             break;
+
+//         case "yellow":
+
+//             audio = new Audio("../Simon Game/sounds/yellow.mp3");
+//             audio.play();
+
+//             break;
+
+//         default:
+//             break;
+//     };
+
+
+// };
