@@ -25,7 +25,7 @@ function gameOver() {
     $(document.body).css("background-color", "red").delay(50).queue(function (next) {
         $(this).css("background-color", "#011F3F");
         next();
-        audio = new Audio("../Simon Game/sounds/wrong.mp3");
+        audio = new Audio("./sounds/wrong.mp3");
         audio.play();
     });
     gameReStar();
@@ -84,7 +84,7 @@ function playSound(name) {
     switch (name) {
         case "blue":
 
-            audio = new Audio("sounds/blue.mp3");
+            audio = new Audio("./sounds/blue.mp3");
             audio.play();
 
             break;
@@ -92,21 +92,21 @@ function playSound(name) {
 
         case "green":
 
-            audio = new Audio("sounds/green.mp3");
+            audio = new Audio("./sounds/green.mp3");
             audio.play();
 
             break;
 
         case "red":
 
-            audio = new Audio("sounds/red.mp3");
+            audio = new Audio("./sounds/red.mp3");
             audio.play();
 
             break;
 
         case "yellow":
 
-            audio = new Audio("sounds/yellow.mp3");
+            audio = new Audio("./sounds/yellow.mp3");
             audio.play();
 
             break;
